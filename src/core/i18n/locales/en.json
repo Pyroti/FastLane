@@ -1,0 +1,24 @@
+{
+  "common": {
+    "emptyList": "The list is empty"
+  },
+  "drivers": {
+    "title": "Drivers",
+    "basicInformation": "Basic information",
+    "name": "Name",
+    "dateOfBirth": "Date of Birth",
+    "nationality": "Nationality",
+    "wikipedia": "Wikipedia",
+    "yearsOld": "years old",
+    "viewRaces": "View Races"
+  },
+  "races": {
+    "season": "Season",
+    "round": "Round",
+    "raceName": "Race Name",
+    "position": "Position"
+  },
+  "errors": {
+    "boundaryText": "Something went wrong..."
+  }
+}

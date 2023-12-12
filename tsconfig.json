@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "esnext",
+    "jsx": "react-native",
+    "sourceMap": false,
+    "outDir": "build",
+    "baseUrl": "./src",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "strictNullChecks": false,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "typeRoots": ["./@types", "./node_modules/@types"],
+    "paths": {
+      "@core/*": ["core/*"],
+      "@navigators/*": ["navigators/*"],
+      "@theme/*": ["theme/*"],
+      "@pages/*": ["pages/*"],
+      "@store/*": ["store/*"]
+    }
+  },
+}
